@@ -364,8 +364,8 @@ header {
 }
 
 .aboutme .container {
-    padding-top: 140px;
-    padding-bottom: 90px;
+    /* padding-top: 140px;
+    padding-bottom: 90px; */
 }
 
 .aboutCont {
@@ -409,8 +409,8 @@ header {
 
 .aboutme .heading {
     text-align: center;
-    padding-top: 78px;
-    padding-bottom: 26px;
+    /* padding-top: 78px; */
+    padding-bottom: 50px;
 }
 
 .aboutme .heading h2 {
@@ -429,7 +429,7 @@ header {
 }
 
 .technical .container {
-    padding-top: 140px;
+    padding-top: 90px;
     padding-bottom: 90px;
 }
 
@@ -515,7 +515,7 @@ header {
 }
 
 .exprience .container {
-    padding-top: 140px;
+    /* padding-top: 140px; */
     padding-bottom: 90px;
 }
 
@@ -632,7 +632,7 @@ header {
 .reffernces {}
 
 .reffernces .container {
-    padding-top: 140px;
+    /* padding-top: 140px; */
     padding-bottom: 90px;
 }
 
@@ -696,7 +696,7 @@ header {
 }
 
 .contact .container {
-    padding-top: 140px;
+    /* padding-top: 140px; */
     padding-bottom: 90px;
 }
 
