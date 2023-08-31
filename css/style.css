@@ -661,6 +661,8 @@ header {
     background: #FFF;
     padding: 50px 34px 41px;
     border-bottom: #e6e6e6 5px solid;
+        height: 100%;
+        position: relative;
 }
 
 .refBoxcon p {
@@ -675,6 +677,9 @@ header {
     color: #4c404d;
     font-size: 18px;
     font-weight: bold;
+    position: absolute;
+        bottom: 30px;
+        right: 30px;
 }
 
 .refBoxcon h3 a {
@@ -684,6 +689,7 @@ header {
 
 .refBox {
     padding: 0 10px;
+    height: 428px;
 }
 
 
