@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="shortcut icon" href="http://cody1991.github.io/favicon.ico" />
+  <link rel="shortcut icon" href="./font/favicon.ico" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>devin 个人简历</title>
   <meta name="viewport"
@@ -107,7 +107,7 @@
               </p>
               <p>我喜欢听歌、游泳和打球，这些爱好帮助我保持平衡和活力。</p>
             </div>
-            <a href="https://github.com/zhengdechang" class="btnDownload">前往我的GitHub</a>
+            <a href="https://github.com/zhengdechang" class="btnDownload" target="_blank">前往我的GitHub</a>
           </div>
         </div>
       </div>
@@ -304,7 +304,7 @@
           </div>
         </div>
         <div class="row workDetails">
-     <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
             <div class="workYear">
               <span class="prevY">3,2021</span>
               <span class="afterY">11,2022</span>
@@ -329,44 +329,66 @@
       <div class="container">
         <div class="heading">
           <h2>项目</h2>
-          <p>个人项目，公司项目</p>
+          <p>个人项目</p>
         </div>
         <div class="row waterfall" data-col-min-width="300">
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
             <div class="refBoxcon">
               <p>
-                由Vue.js + Node.js实现的前后端分离项目;数据库采用MongoDB，通过网易云音乐API获取音乐资源。并实现后台管理界面对用户操作进行管理；实现了音乐播放、用户标识、搜索、最近播放、歌单管理和歌词显示等功能。<br/>技术栈：Vue.js、Node.js(Express)、MongoDB、Element UI、Webpack。
+                该项目是一个基于Web的三维点云渲染和交互平台。前端使用React框架,后端使用Python语言。采用gRPC作为服务端和客户端之间的通信协议,并通过gRPC-Web实现浏览器端的gRPC调用。Three.js用于三维场景和点云的渲染。Stream流用于大规模点云数据的传输和渲染。通过这些技术的应用,实现了交互式的三维点云场景的渲染和操作。
+                <br />技术栈：Python、gRPC、gRPC-Web、React、three.js、ahooks.js等。
               </p>
               <h3>
-                <a href="https://elemusic-azww.vercel.app/#/">Elemusic音乐播放器</a>
+                <a href="https://grpc-web-python-react.vercel.app" target="_blank">grpc-web点云渲染</a>
               </h3>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
             <div class="refBoxcon">
               <p>
-               Go + React 实现的前后端分离项目，后端采用高性能的Go语言，前端使用React框架来构建用户界面；接入
-                微信SDK，扫码登录，无需用户手动注册。前期实现充值卡，后面改用微信支付endpoint，目前超过1000付费用户；
-                前端模拟Stream流，线上采用CDN优化用户体验；<br/>技术栈：React、Go、Ant Design、Zustand、Webpack等。
+                由Vue.js +
+                Node.js实现的前后端分离项目;数据库采用MongoDB，通过网易云音乐API获取音乐资源。并实现后台管理界面对用户操作进行管理；实现了音乐播放、用户标识、搜索、最近播放、歌单管理和歌词显示等功能。<br />技术栈：Vue.js、Node.js(Express)、MongoDB、Element UI、Webpack等。
               </p>
               <h3>
-                <a href="https://chat.openai-link.cn/">ChatGPT国内版</a>
+                <a href="https://elemusic.vercel.app" target="_blank">Elemusic音乐播放器</a>
               </h3>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox" >
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
             <div class="refBoxcon">
               <p>
-                采用React 框架和 antd 组件库构建用户界面，采用Webpack构建项目，并优化加载速度，比如GZ包压缩、分包拆包等。同时，项目还使用了Zustand作为状态管理库，帮助管理和共享应用程序的状态。实现响应式布局并采用动画实现平滑过渡。<br/>技术栈：React、Ant Design、Zustand、Webpack、Swiper等。
+                Go + React 实现的前后端分离项目，后端采用高性能的Go语言，前端使用React框架来构建用户界面；接入
+                微信SDK，扫码登录，无需用户手动注册。前期实现充值卡，后面改用微信支付endpoint，目前超过1000付费用户；
+                前端模拟Stream流，线上采用CDN优化用户体验；<br />技术栈：React、Go、Ant Design、Zustand、Webpack等。
               </p>
               <h3>
-                <a href="https://website-iota-liard.vercel.app/">考研教育官网</a>
+                <a href="https://chat.openai-link.cn/" target="_blank">ChatGPT国内版</a>
               </h3>
             </div>
           </div>
-          
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                采用React 框架和 antd
+                组件库构建用户界面，采用Webpack构建项目，并优化加载速度，比如GZ包压缩、分包拆包等。同时，项目还使用了Zustand作为状态管理库，帮助管理和共享应用程序的状态。实现响应式布局并采用动画实现平滑过渡。<br />技术栈：React、Ant Design、Zustand、Webpack、Swiper等。
+              </p>
+              <h3>
+                <a href="https://website-iota-liard.vercel.app/" target="_blank">考研教育官网</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                该系统采用前后端分离架构,前端使用 React 框架,后端使用 Egg.js 框架,数据库存储使用
+                MongoDB。系统收集学生的课程学习数据,练习题完成情况等,经过智能分析,生成每个学生每个课程的学习效果报告。报告通过可视化展示学生的学习情况。通过授权，分为教师端和学生端。<br />技术栈：React、Egg.js、MongoDB、umi.js等。
+              </p>
+              <h3>
+                <a href="https://learning-effect-admin.vercel.app/" target="_blank">智能分析系统</a>
+              </h3>
+            </div>
+          </div>
         </div>
-      </div>
     </section>
     <section class="contact" id="contact">
       <div class="container topCon">
@@ -387,7 +409,7 @@
     <section class="footer" id="footer">
       <div class="container">
         <ul>
-          <li><a href="https://github.com/zhengdechang"><i class="icon icon-github icon-2x"></i></a>
+          <li><a href="https://github.com/zhengdechang" target="_blank"><i class="icon icon-github icon-2x"></i></a>
           </li>
         </ul>
         <span class="totop"><i class="icon icon-chevron-up"></i>
@@ -422,7 +444,7 @@
 
   </script>
   <script src="./js/jquery.superslides.js"></script>
-<!--   <script src="./js/jquery.easing.min.js"></script> -->
+  <!--   <script src="./js/jquery.easing.min.js"></script> -->
   <script src="./js/custom.js"></script>
   <script src="./js/jquery.easypiechart.js"></script>
 </body>
